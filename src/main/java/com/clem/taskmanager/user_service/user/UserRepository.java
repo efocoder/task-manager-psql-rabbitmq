@@ -1,4 +1,4 @@
-package com.clem.taskmanager.user_management.user;
+package com.clem.taskmanager.user_service.user;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 

@@ -1,14 +1,14 @@
-package com.clem.taskmanager.authentication.auth;
+package com.clem.taskmanager.auth_service.auth;
 
-import com.clem.taskmanager.authentication.auth.dto.LoginDto;
-import com.clem.taskmanager.authentication.auth.dto.RegistrationDto;
+import com.clem.taskmanager.auth_service.auth.dto.LoginDto;
+import com.clem.taskmanager.auth_service.auth.dto.RegistrationDto;
 import com.clem.taskmanager.exception.UniqueConstraintViolationException;
-import com.clem.taskmanager.user_management.role.RoleRepository;
-import com.clem.taskmanager.authentication.security.JwtService;
+import com.clem.taskmanager.user_service.role.RoleRepository;
+import com.clem.taskmanager.auth_service.security.JwtService;
 import com.clem.taskmanager.shared.ApiResponse;
 import com.clem.taskmanager.shared.StatusEnum;
-import com.clem.taskmanager.user_management.user.User;
-import com.clem.taskmanager.user_management.user.UserRepository;
+import com.clem.taskmanager.user_service.user.User;
+import com.clem.taskmanager.user_service.user.UserRepository;
 import jakarta.transaction.Transactional;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.authentication.AuthenticationManager;

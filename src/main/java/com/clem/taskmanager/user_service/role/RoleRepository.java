@@ -1,4 +1,4 @@
-package com.clem.taskmanager.user_management.role;
+package com.clem.taskmanager.user_service.role;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 

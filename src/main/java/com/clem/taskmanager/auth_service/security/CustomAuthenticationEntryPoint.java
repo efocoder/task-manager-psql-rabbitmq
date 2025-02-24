@@ -1,4 +1,4 @@
-package com.clem.taskmanager.authentication.security;
+package com.clem.taskmanager.auth_service.security;
 
 import com.clem.taskmanager.shared.ApiCode;
 import com.fasterxml.jackson.databind.ObjectMapper;

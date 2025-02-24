@@ -1,4 +1,4 @@
-package com.clem.taskmanager.authentication.security;
+package com.clem.taskmanager.auth_service.security;
 
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;

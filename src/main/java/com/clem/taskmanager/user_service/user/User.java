@@ -1,6 +1,6 @@
-package com.clem.taskmanager.user_management.user;
+package com.clem.taskmanager.user_service.user;
 
-import com.clem.taskmanager.user_management.role.Role;
+import com.clem.taskmanager.user_service.role.Role;
 import com.clem.taskmanager.shared.StatusConverter;
 import com.clem.taskmanager.shared.StatusEnum;
 import com.fasterxml.jackson.annotation.JsonIgnore;

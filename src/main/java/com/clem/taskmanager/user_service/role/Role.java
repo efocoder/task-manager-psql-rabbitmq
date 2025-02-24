@@ -1,8 +1,8 @@
-package com.clem.taskmanager.user_management.role;
+package com.clem.taskmanager.user_service.role;
 
 import com.clem.taskmanager.shared.StatusConverter;
 import com.clem.taskmanager.shared.StatusEnum;
-import com.clem.taskmanager.user_management.user.User;
+import com.clem.taskmanager.user_service.user.User;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;

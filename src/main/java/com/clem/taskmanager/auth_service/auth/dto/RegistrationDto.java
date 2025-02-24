@@ -1,4 +1,4 @@
-package com.clem.taskmanager.authentication.auth.dto;
+package com.clem.taskmanager.auth_service.auth.dto;
 
 import com.clem.taskmanager.shared.AppConstants;
 import com.fasterxml.jackson.annotation.JsonProperty;

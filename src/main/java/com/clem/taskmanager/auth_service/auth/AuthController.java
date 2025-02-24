@@ -1,9 +1,9 @@
-package com.clem.taskmanager.authentication.auth;
+package com.clem.taskmanager.auth_service.auth;
 
-import com.clem.taskmanager.authentication.auth.dto.LoginDto;
-import com.clem.taskmanager.authentication.auth.dto.RegistrationDto;
-import com.clem.taskmanager.authentication.security.JwtResponse;
-import com.clem.taskmanager.authentication.security.JwtService;
+import com.clem.taskmanager.auth_service.auth.dto.LoginDto;
+import com.clem.taskmanager.auth_service.auth.dto.RegistrationDto;
+import com.clem.taskmanager.auth_service.security.JwtResponse;
+import com.clem.taskmanager.auth_service.security.JwtService;
 import com.clem.taskmanager.shared.ApiCode;
 import com.clem.taskmanager.shared.ApiResponse;
 import jakarta.validation.Valid;

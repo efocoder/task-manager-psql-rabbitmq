@@ -1,7 +1,7 @@
 package com.clem.taskmanager.config;
 
-import com.clem.taskmanager.authentication.security.CustomAuthenticationEntryPoint;
-import com.clem.taskmanager.authentication.security.JwtFilter;
+import com.clem.taskmanager.auth_service.security.CustomAuthenticationEntryPoint;
+import com.clem.taskmanager.auth_service.security.JwtFilter;
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

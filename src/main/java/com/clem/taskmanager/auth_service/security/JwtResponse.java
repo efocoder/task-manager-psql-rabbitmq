@@ -1,4 +1,4 @@
-package com.clem.taskmanager.authentication.security;
+package com.clem.taskmanager.auth_service.security;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;

@@ -1,7 +1,7 @@
 package com.clem.taskmanager;
 
-import com.clem.taskmanager.user_management.role.Role;
-import com.clem.taskmanager.user_management.role.RoleRepository;
+import com.clem.taskmanager.user_service.role.Role;
+import com.clem.taskmanager.user_service.role.RoleRepository;
 import com.clem.taskmanager.shared.StatusEnum;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;

@@ -1,4 +1,4 @@
-package com.clem.taskmanager.authentication.auth.dto;
+package com.clem.taskmanager.auth_service.auth.dto;
 
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotEmpty;

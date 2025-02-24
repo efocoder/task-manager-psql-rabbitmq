@@ -1,4 +1,4 @@
-package com.clem.taskmanager.user_management.user;
+package com.clem.taskmanager.user_service.user;
 
 import jakarta.transaction.Transactional;
 import lombok.Getter;

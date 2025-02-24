@@ -1,0 +1,26 @@
+spring:
+  devtools:
+    restart:
+      enabled: true
+      poll-interval: 1000
+  datasource:
+    url: jdbc:postgresql://localhost:5432/task_manager
+    username: dev
+    password: password
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+    database: postgresql
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+application:
+  security:
+    jwt:
+      secret-key: 7cf08d2de230e2e5cd68e732a70c08ec1df0d707ccc4c12912c3f8e22bb41f048b428e8d8c3196973dcf6dfe0a3f3254989e196fd870e92a2f0b12e0a04a979c
+      expiration: 3600000 #600000
+server:
+  port: 8088

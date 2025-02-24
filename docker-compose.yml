@@ -1,0 +1,39 @@
+services:
+  postgres:
+    container_name: task-manager
+    image: postgres:latest
+    environment:
+      POSTGRES_USER: dev
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: task_manager
+      PGDATA: /var/lib/postgres/data
+    volumes:
+      - postgres:/data/postgres
+    ports:
+      - "5432:5432"
+    networks:
+      - task-manager
+    restart: unless-stopped
+
+  rabbitmq:
+    container_name: rabbitmq-task-manager
+
+    image: rabbitmq:3.12-management
+    environment:
+      - RABBITMQ_DEFAULT_USER=rabbitmq
+      - RABBITMQ_DEFAULT_PASS=rabbitmq
+      - RABBITMQ_DEFAULT_VHOST=task_manager
+    ports:
+      - "5672:5672"
+      - "15672:15672" # RabbitMQ Management UI
+    networks:
+      - task-manager
+    restart: unless-stopped
+
+networks:
+  task-manager:
+    driver: bridge
+
+volumes:
+  postgres:
+    driver: local
